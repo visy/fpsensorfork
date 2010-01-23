@@ -1,12 +1,17 @@
 package com.flat20.fingerplay;
 
 import java.io.File;
+import java.util.List;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.KeyEvent;
 import android.widget.Toast;
+import android.hardware.SensorListener;
+import android.hardware.SensorManager;
+import android.hardware.Sensor;
+import android.util.Log;
 
 import com.flat20.fingerplay.midicontrollers.MidiControllerManager;
 import com.flat20.fingerplay.network.ConnectionManager;
@@ -20,7 +25,7 @@ import com.flat20.gui.sprites.Logo;
 import com.flat20.gui.widgets.MidiWidgetContainer;
 import com.flat20.gui.LayoutManager;
 
-public class FingerPlayActivity extends InteractiveActivity {
+public class FingerPlayActivity extends InteractiveActivity implements SensorListener {
 
 	private SettingsModel mSettingsModel;
 
@@ -32,6 +37,11 @@ public class FingerPlayActivity extends InteractiveActivity {
 
     private NavigationOverlay mNavigationOverlay; 
  
+    public SensorManager sensorManager;
+
+    public int num_sensors = 0;
+    public int sensor[];
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
@@ -49,6 +59,20 @@ public class FingerPlayActivity extends InteractiveActivity {
         Toast info = Toast.makeText(this, "Go to http://thesundancekid.net/ for help.", Toast.LENGTH_LONG);
         info.show();
 
+	sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+
+	List<Sensor> sensors = sensorManager.getSensorList(Sensor.TYPE_ALL);
+
+	int i = 0;
+
+	sensor = new int[10];
+
+	for(Sensor s:sensors) {
+		sensor[i] = s.getType();
+		i++;
+	}	
+
+	num_sensors = i;	
 
         // Simple splash animation
 
@@ -143,6 +167,47 @@ public class FingerPlayActivity extends InteractiveActivity {
 		}
 */
 	};
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		for (int i = 0; i < num_sensors; i++)
+			sensorManager.registerListener(this, sensor[i]);
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		for (int i = 0; i < num_sensors; i++)
+			sensorManager.unregisterListener(this, sensor[i]);
+	}
+
+	public void onAccuracyChanged(int sensor, int accuracy) {
+    		Log.d("ACCU", String.format("onAccuracyChanged  sensor: %d   accuraccy: %d", sensor, accuracy));
+  	}
+
+	public void onSensorChanged(int sensorReporting, float[] values) {
+		boolean foundSensor = false;
+
+		for (int i = 0; i < num_sensors; i++) {
+			if (sensorReporting != sensor[i]) { foundSensor = false; }
+			else { foundSensor = true; break; };
+		}
+
+		if (!foundSensor) return;
+		else {
+			switch (sensorReporting) {
+				case SensorManager.SENSOR_ORIENTATION:
+					float azimuth = values[0];
+					float pitch = values[1];
+					float roll = values[2];
+					mMidiWidgetsContainer.onSensorChanged(sensorReporting, values);		
+					break;
+				default:
+					break;
+			}
+		}
+	}
 
 	@Override
 	protected void onDestroy() {
