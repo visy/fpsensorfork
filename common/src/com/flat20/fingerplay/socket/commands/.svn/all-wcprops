@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands
+END
+SocketCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/SocketCommand.java
+END
+FingerWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands/FingerWriter.java
+END
+FingerReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands/FingerReader.java
+END
+SocketStringCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/SocketStringCommand.java
+END

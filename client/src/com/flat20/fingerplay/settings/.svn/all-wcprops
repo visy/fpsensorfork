@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/settings
+END
+SettingsModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/settings/SettingsModel.java
+END
+SettingsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/settings/SettingsController.java
+END
+SettingsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/settings/SettingsView.java
+END

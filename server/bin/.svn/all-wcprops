@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/28/trunk/server/bin
+END
+FingerPlayServer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/28/trunk/server/bin/FingerPlayServer.jar
+END
+version.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/28/trunk/server/bin/version.txt
+END
+FingerPlayCommon.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17/trunk/server/bin/FingerPlayCommon.jar
+END
+FingerPlayServer.zip
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/28/trunk/server/bin/FingerPlayServer.zip
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/13/trunk/server/bin/run.bat
+END
+run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/13/trunk/server/bin/run.sh
+END

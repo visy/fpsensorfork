@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/14/trunk/client/src/com/illposed/osc
+END
+OSCPortIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/OSCPortIn.java
+END
+OSCPortOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/OSCPortOut.java
+END
+OSCMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/OSCMessage.java
+END
+OSCPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/14/trunk/client/src/com/illposed/osc/OSCPort.java
+END
+OSCListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/OSCListener.java
+END
+OSCPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/OSCPacket.java
+END
+OSCBundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/OSCBundle.java
+END

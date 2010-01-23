@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/14/trunk/client/src/com/illposed/osc/utility
+END
+OSCPacketDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/utility/OSCPacketDispatcher.java
+END
+OSCByteArrayToJavaConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/client/src/com/illposed/osc/utility/OSCByteArrayToJavaConverter.java
+END
+OSCJavaToByteArrayConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/14/trunk/client/src/com/illposed/osc/utility/OSCJavaToByteArrayConverter.java
+END

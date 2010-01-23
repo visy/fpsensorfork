@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands/misc
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands/misc/Version.java
+END
+RequestMidiDeviceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/misc/RequestMidiDeviceList.java
+END
+DeviceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands/misc/DeviceList.java
+END
+SetMidiDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/16/trunk/common/src/com/flat20/fingerplay/socket/commands/misc/SetMidiDevice.java
+END

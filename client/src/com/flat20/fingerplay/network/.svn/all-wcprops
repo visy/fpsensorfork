@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/network
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/14/trunk/client/src/com/flat20/fingerplay/network/Connection.java
+END
+FingerServerConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/network/FingerServerConnection.java
+END
+OSCConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/network/OSCConnection.java
+END
+ConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/22/trunk/client/src/com/flat20/fingerplay/network/ConnectionManager.java
+END

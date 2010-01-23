@@ -1,0 +1,6 @@
+<project default="jar" basedir=".">
+	<target name="jar">
+		<mkdir dir="bin/"/>
+		<jar destfile="bin/FingerPlayCommon.jar" basedir="build/" />
+	</target>
+</project>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/midi
+END
+MidiNoteOff.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/midi/MidiNoteOff.java
+END
+MidiNoteOn.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/midi/MidiNoteOn.java
+END
+MidiControlChange.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/midi/MidiControlChange.java
+END
+MidiSocketCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/common/src/com/flat20/fingerplay/socket/commands/midi/MidiSocketCommand.java
+END

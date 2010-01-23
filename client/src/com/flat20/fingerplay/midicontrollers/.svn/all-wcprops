@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/midicontrollers
+END
+IMidiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/client/src/com/flat20/fingerplay/midicontrollers/IMidiController.java
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/client/src/com/flat20/fingerplay/midicontrollers/Parameter.java
+END
+MidiControllerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/32/trunk/client/src/com/flat20/fingerplay/midicontrollers/MidiControllerManager.java
+END
+IOnControlChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4/trunk/client/src/com/flat20/fingerplay/midicontrollers/IOnControlChangeListener.java
+END
