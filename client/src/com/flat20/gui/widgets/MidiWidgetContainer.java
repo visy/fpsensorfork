@@ -82,7 +82,7 @@ public class MidiWidgetContainer extends WidgetContainer implements IScrollable 
 		//return super.onKeyDown(keyCode, event);
 	}
 	
-	public void onSensorChanged(float[] sensorValues, int sensorType)
+	public void onSensorChanged(int sensorType, float[] sensorValues)
 	{
 		if (mFocusedWidget != null) {
 			WidgetContainer wc = (WidgetContainer) mFocusedWidget;
