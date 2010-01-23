@@ -2,6 +2,7 @@ package com.flat20.gui.widgets;
 
 import android.util.Log;
 import android.view.KeyEvent;
+import android.hardware.Sensor;
 
 import com.flat20.gui.Renderer;
 import com.flat20.gui.animations.Animation;
@@ -79,6 +80,18 @@ public class MidiWidgetContainer extends WidgetContainer implements IScrollable 
 			}
 		}
 		//return super.onKeyDown(keyCode, event);
+	}
+	
+	public void onSensorChanged(float[] sensorValues, int sensorType)
+	{
+		if (mFocusedWidget != null) {
+			WidgetContainer wc = (WidgetContainer) mFocusedWidget;
+			if (wc.getFocusedWidget() instanceof MidiWidget) {
+				MidiWidget mw = (MidiWidget)wc.getFocusedWidget();
+				for (int i = 0; i < sensorValues.length; i++)
+					mw.sendControlChange(i, (int)sensorValues[i]);
+			}
+		}
 	}
 
 	/*
